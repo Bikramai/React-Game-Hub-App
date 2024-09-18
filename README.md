@@ -20,7 +20,7 @@ We can build all these components individually, and then combine them to build p
 # Section-1: Getting Start with React
 - What is React
 - Setting Up the Development Environment
-- Creating a React App
+- Creating a my React App
 - How React Works
 - React Ecosystem
 
