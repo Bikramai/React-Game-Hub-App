@@ -24,3 +24,9 @@ We can build all these components individually, and then combine them to build p
 - How React Works
 - React Ecosystem
 
+# Section-2: Building Components
+- Building components
+- Rendering markup with JSX
+- Managing state
+- Passing input via props
+- Debugging React apps
