@@ -1,15 +1,24 @@
 function ListGroup() {
   let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
 
-
   return (
     <>
       <h1>List</h1>
-      {items.length === 0 && <p>No item found</p> }
+      {items.length === 0 && <p>No item found</p>}
       <ul className="list-group">
-        {items.map((item) => (  // rendering ListGroup dynamically
-          <li className="list-group-item">{item}</li>
-        ))}
+        {items.map(
+          (
+            item // rendering ListGroup dynamically
+          ) => (
+            <li
+              className="list-group-item"
+              key={item}
+              onClick={() => console.log("Clicked")}
+            >
+              {item}
+            </li>
+          )
+        )}
       </ul>
     </>
   );
