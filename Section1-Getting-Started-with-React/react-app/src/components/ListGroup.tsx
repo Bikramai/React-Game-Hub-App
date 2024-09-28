@@ -8,12 +8,12 @@ function ListGroup() {
       <ul className="list-group">
         {items.map(
           (
-            item // rendering ListGroup dynamically
+            item, index
           ) => (
             <li
               className="list-group-item"
               key={item}
-              onClick={() => console.log("Clicked")}
+              onClick={() => console.log(item, index)}
             >
               {item}
             </li>
