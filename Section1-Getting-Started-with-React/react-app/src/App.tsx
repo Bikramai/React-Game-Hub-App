@@ -1,8 +1,13 @@
- import ListGroup from "./components/ListGroup";
+import ListGroup from "./components/ListGroup";
 
 // PascalCasing
 function App() {
-  return <div><ListGroup /></div>;
+  let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
+  return (
+    <div>
+      <ListGroup items={items} heading="cities"/>
+    </div>
+  );
 }
 
 export default App;
