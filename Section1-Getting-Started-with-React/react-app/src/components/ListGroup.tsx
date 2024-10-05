@@ -7,7 +7,6 @@ interface Props {
 }
 
 function ListGroup({ items, heading, onSelectionItem }: Props) {
-  // Hook-A hook is a function that allow us to tap into built-in features in React
   const [selectionIndex, setSelectedIndex] = useState(-1);
 
   return (
