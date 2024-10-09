@@ -30,3 +30,9 @@ We can build all these components individually, and then combine them to build p
 - Managing state
 - Passing input via props
 - Debugging React apps
+
+# Section-3: Styling Components
+- Vanilla CSS
+- CSS Modules
+- CSS-in-JS
+- Using CSS Libraries
