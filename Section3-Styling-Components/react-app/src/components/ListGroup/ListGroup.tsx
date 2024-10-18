@@ -2,6 +2,11 @@ import { useState } from "react";
 import './ListGroup.css';
 import styled from "styled-components";
 
+
+styled.ul`
+
+`
+
 interface Props {
   items: string[];
   heading: string;
