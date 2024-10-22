@@ -1,8 +1,10 @@
-import { useState } from "react";
-import Alert from "./components/Alert";
-import Button from "./components/Button";
-import './App.css'
-import ListGroup from "./components/ListGroup";
+// import { useState } from "react";
+// import Alert from "./components/Alert";
+// import Button from "./components/Button";
+// import './App.css'
+// import ListGroup from "./components/ListGroup";
+
+import { IoCalendarNumber } from "react-icons/io5";
 
 function App() {
   let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
@@ -12,7 +14,7 @@ function App() {
   }
   return (
     <div>
-      <ListGroup items={items} heading="cities" onSelectionItem={handleSelecItem}/>
+      <IoCalendarNumber color="red" size="80"/>
     </div>
   );
 }
