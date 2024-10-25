@@ -1,9 +1,11 @@
-
+import Button from "./components/Button/Button";
 
 function App() {
   return (
     <div>
-      <button onClick={() => {}}> My Button</button>
+      <Button color="primary" onClick={() => true}>
+        My Button
+      </Button>
     </div>
   );
 }
