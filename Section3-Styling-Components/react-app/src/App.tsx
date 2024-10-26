@@ -1,11 +1,9 @@
-import Button from "./components/Button/Button";
+import Like from "./components/Like";
 
 function App() {
   return (
     <div>
-      <Button color="primary" onClick={() => true}>
-        My Button
-      </Button>
+      <Like />
     </div>
   );
 }
