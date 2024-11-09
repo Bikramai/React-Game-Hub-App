@@ -1,12 +1,14 @@
 import { useState } from "react";
 import ListGroup from "./components/ListGroup";
 
-// PascalCasing
 function App() {
-  let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
+  const [pizza, setPizza] = useState({
+    name: "Spicy Pepperoni",
+    toppings: ["Mushroom"],
+  });
 
-  const handleSelecItem = (item: string) => {
-    console.log(item);
+  const handleClick = () => {
+    setPizza({ ...pizza, toppings: [...pizza.toppings, "Cheese"] });
   };
 
   const [game, setGame] = useState({
@@ -16,16 +18,9 @@ function App() {
     },
   });
 
-  const handleClick = () => {
-    setGame({ ...game, player: { ...game.player, name: "John" } });
-  };
   return (
     <div>
-      <ListGroup
-        items={items}
-        heading="cities"
-        onSelectionItem={handleSelecItem}
-      />
+      <button onClick={handleClick}>Click Me</button>
     </div>
   );
 }
