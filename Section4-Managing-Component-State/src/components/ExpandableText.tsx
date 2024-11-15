@@ -1,7 +1,11 @@
 import React from "react";
 
-const ExpandableText = () => {
-  return <div>ExpandableText</div>;
+interface Props {
+  children: string;
+}
+
+const ExpandableText = ({ children }: Props) => {
+  return <div>{children}</div>;
 };
 
 export default ExpandableText;
