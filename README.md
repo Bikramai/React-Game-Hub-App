@@ -22,7 +22,7 @@ For Example, we can use JavaScript to hide an element when a button is clicked. 
 
 We can build all these components individually, and then combine them to build page. Essentially, a React application is a tree of components with the app being the root, bringing everything together.
 
-# Section-1: Getting Start with React
+# Section-0: Getting Start with React
 
 - What is React
 - Setting Up the Development Environment
@@ -30,7 +30,7 @@ We can build all these components individually, and then combine them to build p
 - How React Works
 - React Ecosystem
 
-# Section-2: Building Components
+# Section-1: Building Components
 
 - Building components
 - Rendering markup with JSX
@@ -38,14 +38,14 @@ We can build all these components individually, and then combine them to build p
 - Passing input via props
 - Debugging React apps
 
-# Section-3: Styling Components
+# Section-2: Styling Components
 
 - Vanilla CSS
 - CSS Modules
 - CSS-in-JS
 - Using CSS Libraries
 
-# Section-4: Managing Component State
+# Section-3: Managing Component State
 
 - Understand State Hook
 - Choosing the State Structure
@@ -59,3 +59,20 @@ We can build all these components individually, and then combine them to build p
 - Updatating Array of Objects
 - Simplifying Update Logic with Immer
 - Sharing State between Components
+
+Section-4: Building Forms
+
+- Building a Form
+- Handling Form Submission
+- Accessing Input Fields
+- Controlled Components
+- Managing Forms with React Hook Form
+- Applying Validation
+- Schema based Validation with Zod
+- Disabling the Submit Button
+- Prject-Expenses Tracker
+- Building ExpensesList
+- Building ExpensesFilter
+- Building Expenses Form
+- Integrating with React Hook Form and Zod
+- Adding an Expense
