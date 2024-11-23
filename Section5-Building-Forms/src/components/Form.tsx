@@ -1,9 +1,11 @@
-import React, { FormEvent } from "react";
+import React, { FormEvent, useRef } from "react";
 
 const Form = () => {
+  const nameRef = useRef(null);
+
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
-    console.log("Submitted");
+    console.log(nameRef.current);
   };
 
   return (
@@ -12,7 +14,7 @@ const Form = () => {
         <label htmlFor="name" className="form-label">
           Name
         </label>
-        <input id="name" type="text" className="form-control" />
+        <input ref={nameRef} id="name" type="text" className="form-control" />
       </div>
 
       <div className="mb-3">
