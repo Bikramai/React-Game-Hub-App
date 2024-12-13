@@ -1,5 +1,12 @@
 import React from "react";
 
+interface Expense {
+  id: number;
+  description: string;
+  amount: number;
+  category: string;
+}
+
 const ExpenseList = () => {
   return (
     <table className="table table-bordered">
@@ -11,6 +18,7 @@ const ExpenseList = () => {
           <th></th>
         </tr>
       </thead>
+      <tbody></tbody>
     </table>
   );
 };
