@@ -78,3 +78,22 @@ Section-4: Building Forms
 - Building Expenses Form
 - Integrating with React Hook Form and Zod
 - Adding an Expense
+
+# Section-5: Connecting to the Backend
+- Introduction
+- Understanding the Effect Hook
+- Effect Dependencies
+- Effect Clean Up
+- Fetching Data
+- Understanding HTTP Requests
+- Handling Errors
+- Working with Async and Await
+- Cancelling a Fetch Request
+- Showing a Loading Indicator
+- Deleting Data
+- Creating Data
+- Updating Data
+- Extracting a Reusable API Client
+- Extracting the User Service
+- Creating a Generic HTTP Service
+- Creating a Custom Data Fetching Hook
