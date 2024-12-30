@@ -4,10 +4,10 @@ import { set } from 'react-hook-form';
 const ProductList = () => {
     const [products, setProducts] = useState<string[]>([]);
 
-    useEffect(() => {(
+    useEffect(() => {
         console.log('fetching products');
         setProducts(['Clothing', 'Electronics', 'Books']);
-    })
+    }, [])
   return (
     <div>ProductList</div>
   )
