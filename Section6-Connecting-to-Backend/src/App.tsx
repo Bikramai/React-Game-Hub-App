@@ -12,7 +12,7 @@ function App() {
   const [users, setUsers] = useState<User[]>([]);
 
   useEffect(() => {
-    axios.get<User[]>('https://jsonplaceholder.typicode.com/users')
+    axios.get<User[]>('https://jsonplaceholder.typicode.com/comments')
       .then(res => 
         setUsers(res.data));
   }, []);
