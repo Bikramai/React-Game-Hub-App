@@ -97,3 +97,23 @@ Section-4: Building Forms
 - Extracting the User Service
 - Creating a Generic HTTP Service
 - Creating a Custom Data Fetching Hook
+
+# Project: Building a Video Game Discovery App
+- Setting Up the Project
+- Installing Chakra UI
+- Creating a Respinsive Layout
+- Building the Navigation Bar
+- Implementing the Dark Mode
+- Building the Color Mode Switch
+- Fetching the Games
+- Note: Secure API Key Mangement 
+- Building Game Cards
+- Displaying Platform Icons
+- Displauing Critic Score
+- Getting Optimized Images
+- Improving User Experience with Loading Skeletons
+- Refactor- Removing Duplicated Stu;es
+- Fetching the Genres
+- Creating a Generic Data Fetching Hook
+- Displaying the Genres
+- Showing a spinner
