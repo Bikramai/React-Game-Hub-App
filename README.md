@@ -117,3 +117,23 @@ Section-4: Building Forms
 - Creating a Generic Data Fetching Hook
 - Displaying the Genres
 - Showing a spinner
+- Filtering Games by Genres
+- Highlighting the Selected Genre
+- Building Platform Selector
+- Filtering Games by Platform
+- Refactoring - Extracting a Query Objects
+- Building Sort Selector
+- Sorting Games
+- Handling Games without an Images
+- Fixing the Issue with Chakra Menus
+- Building Search Input
+- Searching Games
+- Adding a Dynamic Heading 
+- Cleaning Up the Genres
+- Cleanig Up the Game Cards
+- Addig Emojis
+- Shipping Static Data
+- Customizing the Chakra Theme
+- Refactoring Game Grid
+- Building for Production
+- Deploying to Vercel
