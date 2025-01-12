@@ -100,6 +100,12 @@ Section-4: Building Forms
 
 # Project: Building a Video Game Discovery App
 - What is Build
+  This is a mini version of the ROG website, a popular video game discovery platform.
+  We can search for games up here. We can filter them by genre. As the games are 
+  loading, we can see loading skeletons. We can also filter by platform, like PC, 
+  PlayStation, Xbox, and so on. We can sort the games. So we have several UI patterns 
+  you see in modern applications.
+  
 - Up for  a Chellenge?
 - Setting Up the Project
 - Installing Chakra UI
