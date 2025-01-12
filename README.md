@@ -99,6 +99,8 @@ Section-4: Building Forms
 - Creating a Custom Data Fetching Hook
 
 # Project: Building a Video Game Discovery App
+- What is Build
+- Up for  a Chellenge?
 - Setting Up the Project
 - Installing Chakra UI
 - Creating a Respinsive Layout
