@@ -36,9 +36,25 @@ function App() {
       .catch((err: AxiosError) => setError(err.message));
   };
 
+  const addUser = () => {
+    const originalUsers = [...users];
+    const newUsers = { id: 0, name: 'Bikram'};
+    setUsers([...users, newUsers]);
+    
+    axios
+      .post('https://jsonplaceholder.typicode.com/xusers', newUsers)
+      .then(({ data: savedUser }) => setUsers([savedUser, ...users]))
+          .catch((err) => {
+            setError(err.message);
+            setUsers(originalUsers);
+          });
+      };
+
   return (
     <>
-      {/* {error && <p className="text-danger">{error}</p>} */}
+      {error && <p className="text-danger">{error}</p>}
+      {isLoading && <div className="spinner-border"></div>}
+      <button className="btn-primary mb-3" onClick={addUser}>Add</button>
       <ul className="list-group">
         {users.map((user) => (
           <li key={user.id} className="list-group-item d-flex justify-content-between">
@@ -50,4 +66,5 @@ function App() {
     </>
   );
 }
+
 export default App;
